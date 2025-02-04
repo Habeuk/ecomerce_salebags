@@ -1,0 +1,16 @@
+{
+    "name": "habeuk/ecomerce_salebags",
+    "description": "profile for free theme sale bags",
+    "type": "drupal-custom-profile",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kouwa stephane",
+            "email": "kksasteph888@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"habeuk/ecomerce_salebags": "^2.0.33"
+    }
+}

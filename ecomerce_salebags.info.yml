@@ -1,0 +1,104 @@
+name: E-commerce sale bags
+type: profile
+description: "habeuk profile installation"
+core_version_requirement: ^9 || ^10
+
+# Ces modules ne peuvent etre desinstaller par l'utilisateur
+dependencies:
+  - paragraphs
+  - pathauto
+  - formatage_models
+  - generate_style_theme
+  - more_fields
+  - apivuejs
+  - filesmanager
+  
+# Ce paramettre est utilisé pour definir le profile par defaut.
+distribution:
+  name: "E-commerce sale bags by habeuk.com"
+  weight: 1
+#  langcode: fr # l'utilisateur doit pouvoir selectionner la langue.
+
+# Ces modules peuvent etre desinstaller par l'utilisateur.
+install:
+  # core begin standard : D10.2.5
+  - node
+  - history
+  - block
+  - breakpoint
+  - ckeditor5
+  - config
+  - comment
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - big_pipe
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - views
+  - views_ui
+  - automated_cron
+  - announcements_feed
+  #core end standard : D10.2.5
+  - statistics
+  - config_translation
+  - datetime
+  - content_translation
+  ######## CONTRIB
+  - webform
+  - select2
+  - phone_international
+  #commerce
+  - commerce
+  - commerce_autosku
+  - commerce_paybox_payment
+  - commerce_paypal
+  - commerce_checkout
+  - commerce_shipping
+  - commerce_stock
+  - commerce_stock_field
+  - commerce_stripe
+  - better_exposed_filters
+  ######## CUSTOM 
+  - admin_toolbar_tools
+  - twig_vardumper
+  - hot_models
+  - spaker_mod
+  - fullswiperoptions
+  - login_rx_vuejs
+  - habeuk_utilitaire
+  - more_fields
+  - more_fields_video
+  - apivuejs
+  - filesmanager
+  - layout_custom_style
+  - fast_models
+  - bestlayouts
+  - vixcon
+  - fielditem_renderby_view
+  - owlcarousel
+  #commerce  
+  - rating_app
+  - layoutscommerce
+  - commerceformatage
+  - blockscontent
+  - mit_models
+
+themes:
+  - claro
+  - wb_universe

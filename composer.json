@@ -11,6 +11,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-    	"habeuk/ecomerce_salebags": "^2.0.33"
+    	"habeuk/habeuk_commerce": "^2.0.33"
     }
 }

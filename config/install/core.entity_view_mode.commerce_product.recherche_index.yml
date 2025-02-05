@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.recherche_index
+label: 'recherche index'
+description: ''
+targetEntityType: commerce_product
+cache: true

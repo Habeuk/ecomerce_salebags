@@ -1,0 +1,660 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.sacs_prestige
+    - core.entity_view_mode.commerce_product.recherche_index
+    - field.field.commerce_product.sacs_prestige.body
+    - field.field.commerce_product.sacs_prestige.field_accordions
+    - field.field.commerce_product.sacs_prestige.field_collections
+    - field.field.commerce_product.sacs_prestige.field_commentaires
+    - field.field.commerce_product.sacs_prestige.field_etiquettes
+    - field.field.commerce_product.sacs_prestige.field_galleries
+    - field.field.commerce_product.sacs_prestige.field_images
+    - field.field.commerce_product.sacs_prestige.field_key_features
+    - field.field.commerce_product.sacs_prestige.field_marques
+    - field.field.commerce_product.sacs_prestige.field_other_features
+    - field.field.commerce_product.sacs_prestige.field_univers
+  module:
+    - formatage_models
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: formatage_models_simple_block
+        layout_settings:
+          label: ' One column custom  ( formatage_models_simple_block ) '
+          context_mapping: {  }
+          css: mb-0
+          region_tag_main: div
+          config_section:
+            type_container: with-tablet
+            container_class: d-flex
+          sf:
+            builder-form: true
+            info:
+              title: ' Contenu '
+              loader: static
+            fields:
+              main:
+                text_html:
+                  label: Description
+                  value: ''
+                  format: full_html
+              teasers_container:
+                text_html:
+                  label: 'Container pour Teaser'
+                  value: ''
+                  format: full_html
+              image_bg:
+                img_bg:
+                  label: image
+                  fids: {  }
+                  style: ''
+                  class: ''
+                  inbg: 0
+          region_css_main: ''
+          region_css_block_2: p-2
+          region_css_block_3: ''
+          region_css_block_4: ''
+          region_css_block_5: ''
+          region_css_block_6: ''
+          region_css_image_bg: ''
+          region_css_teasers_container: ''
+          load_clean_value: 0
+          save_by_domain: null
+          load_libray: false
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: null
+              background_color:
+                class: null
+              background_media:
+                image:
+                  media_id: null
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              text_color:
+                class: null
+              text_alignment:
+                class: null
+              padding:
+                class: _none
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+              border:
+                border_style:
+                  class: null
+                border_width:
+                  class: _none
+                border_color:
+                  class: null
+                rounded_corners:
+                  class: _none
+                border_left_style:
+                  class: null
+                border_left_width:
+                  class: _none
+                border_left_color:
+                  class: null
+                border_top_style:
+                  class: null
+                border_top_width:
+                  class: _none
+                border_top_color:
+                  class: null
+                border_right_style:
+                  class: null
+                border_right_width:
+                  class: _none
+                border_right_color:
+                  class: null
+                border_bottom_style:
+                  class: null
+                border_bottom_width:
+                  class: _none
+                border_bottom_color:
+                  class: null
+                rounded_corner_top_left:
+                  class: _none
+                rounded_corner_top_right:
+                  class: _none
+                rounded_corner_bottom_left:
+                  class: _none
+                rounded_corner_bottom_right:
+                  class: _none
+              box_shadow:
+                class: null
+              scroll_effects:
+                class: null
+          id: formatage-models-simple-block-258--p86Zk-CycfY
+          cover_section:
+            active: 0
+            model: ''
+            opacity: ''
+            zindex: ''
+          aos_attributes:
+            main:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            block_2:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            block_3:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            block_4:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            block_5:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            block_6:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            image_bg:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            teasers_container:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+          region_tag_block_2: ''
+          region_tag_block_3: ''
+          region_tag_block_4: ''
+          region_tag_block_5: ''
+          region_tag_block_6: ''
+          region_tag_image_bg: ''
+          region_tag_teasers_container: ''
+          default_class:
+            background_position:
+              class: ''
+              background:
+                '': 0
+                background--attached: 0
+                background--cover: 0
+                background--contain: 0
+            spaces:
+              class:
+                '': 0
+                space-bottom: 0
+                space-top-inv: 0
+                space-padding: 0
+                space-inner-padding: 0
+                space-inner-bottom: 0
+                space-inner-top: 0
+                padding-top: 0
+                margin-top: 0
+                padding-bottom: 0
+            border_radius:
+              class: ''
+            box_shadow:
+              class: ''
+            container_width:
+              class: ''
+            regions:
+              main:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              block_2:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              block_3:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              block_4:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              block_5:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              block_6:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              image_bg:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              teasers_container:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+          scss:
+            scss_field: ''
+            file_js: ''
+          class_row: ''
+        components:
+          f69b6029-c227-4b4f-a3a2-ee241dad4c41:
+            uuid: f69b6029-c227-4b4f-a3a2-ee241dad4c41
+            region: block_2
+            configuration:
+              id: 'field_block:commerce_product:sacs_prestige:default_variation'
+              label: 'Default variation'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_entity_view
+                label: hidden
+                settings:
+                  view_mode: price
+                third_party_settings:
+                  formatage_models:
+                    classes:
+                      container: ''
+                      title: ''
+                      value: ''
+                      item: 'small text-secondary'
+                      content: ''
+            weight: 3
+            additional: {  }
+          c9cedbc7-e10e-4172-87ca-28ff0eab54e2:
+            uuid: c9cedbc7-e10e-4172-87ca-28ff0eab54e2
+            region: main
+            configuration:
+              id: 'field_block:commerce_product:sacs_prestige:field_images'
+              label: Images
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: formatage_models_swiperjsimage
+                label: hidden
+                settings:
+                  image_style: image_80_80
+                  image_link: ''
+                  image_loading:
+                    attribute: lazy
+                  layoutgenentitystyles_view: fullswiperoptions/fullswiperoptions
+                  number_image: '1'
+                  pagination_model: ''
+                  pagination_color: ''
+                  pagination_postion: ''
+                  buttons_color: ''
+                  buttons_position: ''
+                  swiperjs_options:
+                    direction: horizontal
+                    supplement_class_status: 0
+                    slideClass: ''
+                    slideActiveClass: ''
+                    loopedSlides: ''
+                    slidesPerView: '4'
+                    breakpoints_status: 0
+                    breakpoints:
+                      576:
+                        centeredSlides: 0
+                        slidesPerView: ''
+                        spaceBetween: ''
+                      769:
+                        centeredSlides: 0
+                        slidesPerView: ''
+                        spaceBetween: ''
+                      992:
+                        centeredSlides: 0
+                        slidesPerView: ''
+                        spaceBetween: ''
+                      1201:
+                        centeredSlides: 0
+                        slidesPerView: ''
+                        spaceBetween: ''
+                      1601:
+                        centeredSlides: 0
+                        slidesPerView: ''
+                        spaceBetween: ''
+                    effect: slide
+                    speed: '500'
+                    spaceBetween: '10'
+                    loop: 0
+                    grabCursor: 0
+                    zoom: 0
+                    parallax: 0
+                    pagination:
+                      enabled: 0
+                    navigation:
+                      enabled: 0
+                    autoplay:
+                      delay: '8000'
+                      pauseOnMouseEnter: 0
+                      disableOnInteraction: 0
+                      waitForTransition: 0
+                      stopOnLastSlide: 0
+                    centeredSlides: 0
+                    freeMode:
+                      enabled: 0
+                third_party_settings:
+                  formatage_models:
+                    remove_container_div: 0
+                    classes:
+                      container: me-2
+                      title: ''
+                      value: ''
+                      item: image-carree
+                      content: ''
+            weight: 0
+            additional: {  }
+          2fe8ce07-d726-4caa-bb69-0dc015644ee9:
+            uuid: 2fe8ce07-d726-4caa-bb69-0dc015644ee9
+            region: block_2
+            configuration:
+              id: 'field_block:commerce_product:sacs_prestige:title'
+              label: Titre
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings:
+                  formatage_models:
+                    classes:
+                      container: ''
+                      title: ''
+                      value: ''
+                      item: 'fw-bold small'
+                      content: ''
+            weight: 2
+            additional: {  }
+          2ce3931a-82bb-4391-936e-c83597920214:
+            uuid: 2ce3931a-82bb-4391-936e-c83597920214
+            region: block_2
+            configuration:
+              id: 'field_block:commerce_product:sacs_prestige:body'
+              label: 'Description courte'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: restrained_text
+                label: hidden
+                settings:
+                  layoutgenentitystyles_view: more_fields/restrained-field
+                  resumed: '60'
+                  count_by_chars: 1
+                  clean_html: 1
+                  display_login_block: 0
+                  message: 'Log in to have full access to the article'
+                  link_label: Connexion
+                  link_to_entity: 0
+                third_party_settings:
+                  formatage_models:
+                    remove_container_div: 0
+                    classes:
+                      container: 'small mt-2'
+                      title: ''
+                      value: ''
+                      item: ''
+                      content: ''
+            weight: 4
+            additional: {  }
+        third_party_settings: {  }
+id: commerce_product.sacs_prestige.recherche_index
+targetEntityType: commerce_product
+bundle: sacs_prestige
+mode: recherche_index
+content:
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  created: true
+  field_accordions: true
+  field_collections: true
+  field_commentaires: true
+  field_etiquettes: true
+  field_galleries: true
+  field_images: true
+  field_key_features: true
+  field_marques: true
+  field_other_features: true
+  field_univers: true
+  langcode: true
+  search_api_excerpt: true
+  stores: true
+  uid: true
+  variations: true

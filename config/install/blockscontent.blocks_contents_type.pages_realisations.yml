@@ -1,0 +1,8 @@
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: F8EuTcG2aA5-TIPExxGbca68d7ChaOUDPK1toJKEoLs
+id: pages_realisations
+label: 'Pages realisations'
+description: ''

@@ -1,5 +1,5 @@
 <?php
-use Drupal\habeuk_commerce\HabeukProfileApplyConfig;
+use Drupal\ecomerce_salebags\HabeukProfileApplyConfig;
 
 /**
  *

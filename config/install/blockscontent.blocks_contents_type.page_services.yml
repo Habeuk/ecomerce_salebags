@@ -1,0 +1,8 @@
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2N8-Lt1CRo-v7NIcjzwCVPj5VUPq29-B6y2RIW6YF7k
+id: page_services
+label: 'Pages services'
+description: ''

@@ -6,7 +6,6 @@ dependencies:
     - commerce_paypal
     - commerce_shipping
     - commerce_stripe
-    - stripebyhabeuk
 _core:
   default_config_hash: KDnx5MjFtp3-Rb0dGzCCzQEabHgvxrzxpkMrbOKsg_4
 label: Expédition
@@ -46,9 +45,6 @@ configuration:
       button_id: edit-actions-next
       auto_submit_review_form: false
       setup_future_usage: ''
-    stripebyhabeuk_review:
-      step: review
-      weight: 6
     payment_process:
       step: payment
       weight: 7

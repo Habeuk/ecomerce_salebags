@@ -1,0 +1,29 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.menu_du_site
+    - field.field.block_content.menu_du_site.field_paragraphs
+  module:
+    - entity_reference_revisions
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: block_content.menu_du_site.default
+targetEntityType: block_content
+bundle: menu_du_site
+mode: default
+content:
+  field_paragraphs:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

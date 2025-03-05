@@ -1,0 +1,36 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.test_video
+    - field.field.block_content.test_video.field_video_test
+  module:
+    - more_fields
+id: block_content.test_video.default
+targetEntityType: block_content
+bundle: test_video
+mode: default
+content:
+  field_video_test:
+    type: more_fields_upload_videos
+    weight: 1
+    region: content
+    settings:
+      check_format_mp4_h264: '1'
+      convert_video: webm
+      file_extensions: 'mp4 ogg webm mov quicktime'
+      file_directory: 'video-thumbnails/[date:custom:Y]-[date:custom:m]'
+      max_filesize: ''
+      uri_scheme: public
+      progress_indicator: throbber
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true

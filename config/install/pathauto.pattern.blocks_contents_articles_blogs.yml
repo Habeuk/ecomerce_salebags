@@ -1,0 +1,21 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - blockscontent
+id: blocks_contents_articles_blogs
+label: 'Blocks contents articles blogs'
+type: 'canonical_entities:blocks_contents'
+pattern: '/blogs-actualites/[blocks_contents:field_tags_blogs:0]/[blocks_contents:name]'
+selection_criteria:
+  b9355b6f-167d-4c85-97ff-7dc75575ad2f:
+    id: 'entity_bundle:blocks_contents'
+    negate: false
+    uuid: b9355b6f-167d-4c85-97ff-7dc75575ad2f
+    context_mapping:
+      blocks_contents: blocks_contents
+    bundles:
+      article_de_blogs_prestige: article_de_blogs_prestige
+selection_logic: and
+weight: -5
+relationships: {  }

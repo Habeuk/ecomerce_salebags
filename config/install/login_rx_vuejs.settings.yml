@@ -1,0 +1,40 @@
+langcode: en
+generate_user: false
+load_user_by_access_domain: false
+send_mail: false
+add_roles:
+  content_editor: 0
+  administrator: 0
+texts:
+  log_email: 'Email or Username'
+  pass: Password
+  login: Username
+  mail: 'Email label or identifier'
+  submit:
+    first: Next
+    connect: Login
+    register: register
+    final: Completed
+  devis_create_user:
+    value: '<p>Votre compte a été créer sur <a href="/">E-commerce </a>.&nbsp;<br><strong>Bien vouloir vérifier votre boite mail afin de valider votre compte</strong></p>'
+    format: full_html
+  condition_utilisation:
+    value: '<p class="text-white">En vous inscrivant, vous acceptez nos <a href="#">Conditions d''utilisation </a>, de recevoir des emails et des MAJ de Habeuk et vous reconnaissez avoir lu notre <a href="#">Politique de confidentialité</a></p>'
+    format: full_html
+  title_login: 'Connect with'
+  create_compte: Register
+  forget_pass: 'Forgotten password'
+  title_end: "Don't have an account?"
+  back: Back
+  email: 'Your email address'
+  info_about_register: 'Your login information will be transferred to this address'
+  title_register_auto: 'Automatic account creation'
+  titre_create_compte: 'Your account has been created'
+environ_run: 1
+action_after_login: home
+apply_on:
+  user_login: user_login
+  user_register: user_register
+url_redirect: ''
+client_google_id: ''
+facebook_app_id: ''

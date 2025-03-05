@@ -1,0 +1,22 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerceformatage
+  theme:
+    - habeuk_theme
+id: habeuk_theme_cartbloccomplet
+theme: habeuk_theme
+region: footer
+weight: -4
+provider: null
+plugin: commerceformatage_cart_bloc_complet
+settings:
+  id: commerceformatage_cart_bloc_complet
+  label: 'Votre panier'
+  label_display: visible
+  provider: commerceformatage
+  block_load_style_scss_js: commerceformatage/cartfloat
+  dropdown: '0'
+  show_if_empty: 0
+visibility: {  }

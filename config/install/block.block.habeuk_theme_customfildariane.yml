@@ -1,0 +1,29 @@
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:fil_d_ariane:8fb68d0e-fd4c-4315-8d52-5d66220a25f3'
+  module:
+    - block_content
+    - system
+  theme:
+    - habeuk_theme
+id: habeuk_theme_customfildariane
+theme: habeuk_theme
+region: hero_slider
+weight: 0
+provider: null
+plugin: 'block_content:8fb68d0e-fd4c-4315-8d52-5d66220a25f3'
+settings:
+  id: 'block_content:8fb68d0e-fd4c-4315-8d52-5d66220a25f3'
+  label: "Custom fil d'ariane"
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

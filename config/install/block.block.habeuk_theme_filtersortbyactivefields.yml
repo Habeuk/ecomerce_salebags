@@ -1,0 +1,41 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - view_filter_display
+  theme:
+    - habeuk_theme
+id: habeuk_theme_filtersortbyactivefields
+theme: habeuk_theme
+region: hide_content
+weight: -5
+provider: null
+plugin: view_filter_display_exposed_fields_filter
+settings:
+  id: view_filter_display_exposed_fields_filter
+  label: ' Filter Sort by active fields '
+  label_display: '0'
+  provider: view_filter_display
+  view_name_display: 'recherche_de_produits page_render_2'
+  view_name_display_class: ''
+  fields:
+    sort_by:
+      status: 1
+      show_label: 1
+      hide_all_option: 0
+      show_more_options: 0
+      number_options_to_show: '10'
+      class: ''
+    search_api_fulltext:
+      status: 0
+      show_label: 1
+      hide_all_option: 1
+      show_more_options: 1
+      number_options_to_show: '10'
+      class: ''
+  show_submit: 0
+  show_sort_by: 0
+  show_sort_order: 0
+  show_reset_link: 1
+  auto_submit: 1
+visibility: {  }

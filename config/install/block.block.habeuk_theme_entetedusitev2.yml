@@ -1,0 +1,29 @@
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:menu_du_site:003e77cb-c62e-42ae-b4f9-7a1c8abd5d11'
+  module:
+    - block_content
+    - system
+  theme:
+    - habeuk_theme
+id: habeuk_theme_entetedusitev2
+theme: habeuk_theme
+region: header
+weight: -6
+provider: null
+plugin: 'block_content:003e77cb-c62e-42ae-b4f9-7a1c8abd5d11'
+settings:
+  id: 'block_content:003e77cb-c62e-42ae-b4f9-7a1c8abd5d11'
+  label: 'Entête du site v2'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/blocks_contents/19\r\n/recherche-produits\r\n/recherche-produits*"

@@ -78,7 +78,6 @@ install:
   - admin_toolbar_tools
   - twig_vardumper
   - hot_models
-  - spaker_mod
   - fullswiperoptions
   - login_rx_vuejs
   - habeuk_utilitaire

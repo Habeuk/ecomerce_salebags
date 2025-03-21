@@ -1,20 +1,22 @@
 {
-    "name": "habeuk/ecomerce_salebags",
-    "description": "profile for free theme sale bags",
-    "type": "drupal-custom-profile",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "kouwa stephane",
-            "email": "kksasteph888@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-    	"habeuk/habeuk_commerce": "^2.0.33",
-    	"habeuk/hot_models": "^1.2",
-        "habeuk/mit_models": "^1.1",
-        "habeuk/fast_models": "^1.2",
-        "habeuk/vixcon": "^1.1"
-    }
+	"name" : "habeuk/ecomerce_salebags",
+	"description" : "profile for free theme sale bags",
+	"type" : "drupal-custom-profile",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "kouwa stephane",
+			"email" : "kksasteph888@gmail.com"
+		}
+	],
+	"minimum-stability" : "dev",
+	"require" : {
+		"drupal/eu_cookie_compliance": "^1.25",
+		"drupal/search_api": "^1.38",
+		"drupal/search_api_autocomplete": "^1.10",
+		"habeuk/habeuk_commerce" : "^2.0.33",
+		"habeuk/hot_models" : "^1.2",
+		"habeuk/mit_models" : "^1.1",
+		"habeuk/fast_models" : "^1.2",
+		"habeuk/vixcon" : "^1.1"
+	}
 }

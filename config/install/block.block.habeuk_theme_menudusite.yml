@@ -1,0 +1,29 @@
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:menu_du_site:9c3d99d7-5fc4-4647-91f2-8309dd95b06f'
+  module:
+    - block_content
+    - system
+  theme:
+    - habeuk_theme
+id: habeuk_theme_menudusite
+theme: habeuk_theme
+region: header
+weight: -5
+provider: null
+plugin: 'block_content:9c3d99d7-5fc4-4647-91f2-8309dd95b06f'
+settings:
+  id: 'block_content:9c3d99d7-5fc4-4647-91f2-8309dd95b06f'
+  label: 'Menu du site'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/admin/*\r\n/blocks_contents/19\r\n/recherche-produits\r\n/recherche-produits*"

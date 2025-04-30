@@ -14,31 +14,46 @@ provider: null
 plugin: view_filter_display_exposed_fields_filter
 settings:
   id: view_filter_display_exposed_fields_filter
-  label: ' Filter Sort by active fields '
+  label: ' Filter Sort by active fields ...'
   label_display: '0'
   provider: view_filter_display
   view_name_display: 'recherche_de_produits page_render_2'
   view_name_display_class: ''
   fields:
     sort_by:
+      operator: ''
       status: 0
       show_label: 1
       hide_all_option: 1
       show_more_options: 1
       number_options_to_show: '10'
       class: ''
+      class_container: ''
     field_collections:
+      operator: or
       status: 1
       show_label: 1
       hide_all_option: 1
       show_more_options: 1
       number_options_to_show: '10'
       class: ''
-  show_submit: 0
+      class_container: ''
+    mynumberkk5:
+      operator: between
+      status: 1
+      show_label: 1
+      hide_all_option: 1
+      show_more_options: 1
+      number_options_to_show: '10'
+      class: ''
+      class_container: ''
+  show_submit: 1
   show_sort_by: 0
   show_sort_order: 0
-  show_reset_link: 0
+  show_reset_link: 1
   auto_submit: 0
+  icone_render: filter
+  view_filter_display_style: view_filter_display/view-filter-display
 visibility:
   request_path:
     id: request_path

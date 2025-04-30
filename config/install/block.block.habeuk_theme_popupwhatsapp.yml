@@ -1,0 +1,27 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - hbk_popin
+  theme:
+    - habeuk_theme
+id: habeuk_theme_popupwhatsapp
+theme: habeuk_theme
+region: after_content
+weight: 0
+provider: null
+plugin: hbk_popin_popup
+settings:
+  id: hbk_popin_popup
+  label: 'Popup WhatsApp'
+  label_display: '0'
+  provider: hbk_popin
+  message: 'Je souhaite télécharger et installer ce site e-commerce.'
+  placeholder: 'Votre message ...'
+  class_container: ''
+  titre: 'Support habeuk.com: +237 694 900 622'
+  phone_number: '+237694900622'
+  send_email: stephanekouwa@gmail.com
+  block_load_style_scss_js: hbk_popin/custom-buton
+  reseller_page: 0
+visibility: {  }

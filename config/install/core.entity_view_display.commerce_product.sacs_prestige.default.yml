@@ -48,7 +48,7 @@ third_party_settings:
           region_css_images: ''
           region_css_caracteristiques: ''
           region_css_titre: 'h3 fw-light border-bottom pb-3 mb-4 text-dark titre-product'
-          region_css_sub_title: ''
+          region_css_sub_title: 'd-flex justify-content-between'
           region_css_sub_title2: ''
           region_css_resume_avis: ''
           region_css_form_add_to_cart: ''
@@ -141,11 +141,11 @@ third_party_settings:
                 class: null
               scroll_effects:
                 class: null
-          id: layoutscommerce-product-parfumn-1159--xL4kX6g3cDY
+          id: commerce_product__sacs_prestige__default
           config_section:
             type_container: container
             container_class: ''
-            id: layoutscommerce-product-parfumn-1159--xL4kX6g3cDY
+            id: ''
           cover_section:
             active: 0
             model: ''
@@ -609,7 +609,7 @@ third_party_settings:
                 container_width:
                   class: ''
           scss:
-            scss_field: "  .galleries-main-thumbs {\r\n    .galleries-thumb.swiper-horizontal {\r\n      padding: 0;\r\n    }\r\n    @include media-min(DD) {\r\n      max-height: 700px;\r\n      height: 700px;\r\n    }\r\n  }\r\n  .accordion-item {\r\n    .accordion-header {\r\n      padding-left: 0;\r\n      padding-right: 0;\r\n    }\r\n    .field-icon {\r\n      display: none;\r\n    }\r\n  }\r\n  .product-pricer__item {\r\n    .product-pricer__item_price {\r\n      display: none;\r\n    }\r\n  }\r\n  form {\r\n    .field--name-quantity label {\r\n      display: none;\r\n    }\r\n  }\r\n  .products_add {\r\n    margin-top: $wbu-margin * 1.8;\r\n  }\r\n  .product-pricer__item {\r\n    border-radius: 0;\r\n  }\r\n  .titre-product {\r\n    display: grid;\r\n    // grid-template-columns: repeat(3, 1fr);\r\n    grid-template-columns: 3fr 1fr;\r\n    grid-gap: 3px;\r\n    > .block:nth-child(1) {\r\n      grid-area: title_product;\r\n    }\r\n    > .block:nth-child(2) {\r\n      grid-area: price_product;\r\n      text-align: right;\r\n    }\r\n    > .block:nth-child(3) {\r\n      grid-area: price_barre;\r\n      text-align: right;\r\n    }\r\n    grid-template-areas:\r\n      \"title_product price_product\"\r\n      \"title_product price_barre\";\r\n    @include media-min(SM) {\r\n      grid-template-columns: 1fr auto auto;\r\n      grid-template-areas: \"title_product price_product price_barre\";\r\n      > .block:nth-child(3) {\r\n        margin-left: $wbu-margin * 0.5;\r\n      }\r\n    }\r\n  }"
+            scss_field: "  .galleries-main-thumbs {\r\n    .galleries-thumb.swiper-horizontal {\r\n      padding: 0;\r\n    }\r\n    @include media-min(DD) {\r\n      max-height: 700px;\r\n      height: 700px;\r\n    }\r\n  }\r\n  .accordion-item {\r\n    .accordion-header {\r\n      padding-left: 0;\r\n      padding-right: 0;\r\n    }\r\n    .field-icon {\r\n      display: none;\r\n    }\r\n  }\r\n  .product-pricer__item {\r\n    .product-pricer__item_price {\r\n      display: none;\r\n    }\r\n  }\r\n  form {\r\n    .field--name-quantity label {\r\n      display: none;\r\n    }\r\n  }\r\n  .products_add {\r\n    margin-top: $wbu-margin * 1.8;\r\n  }\r\n  .product-pricer__item {\r\n    border-radius: 0;\r\n  }\r\n  .titre-product {\r\n    display: grid;\r\n    // grid-template-columns: repeat(3, 1fr);\r\n    grid-template-columns: 3fr 1fr;\r\n    grid-gap: 3px;\r\n    > .block:nth-child(1) {\r\n      grid-area: title_product;\r\n    }\r\n    > .block:nth-child(2) {\r\n      grid-area: price_product;\r\n      text-align: right;\r\n    }\r\n    > .block:nth-child(3) {\r\n      grid-area: price_barre;\r\n      text-align: right;\r\n    }\r\n    grid-template-areas:\r\n      \"title_product price_product\"\r\n      \"title_product price_barre\";\r\n    @include media-min(SM) {\r\n      grid-template-columns: 1fr auto auto;\r\n      grid-template-areas: \"title_product price_product price_barre\";\r\n      > .block:nth-child(3) {\r\n        margin-left: $wbu-margin * 0.5;\r\n      }\r\n    }\r\n  }\r\n//\r\n[class*=field--type-text-] p {\r\n  margin:0;\r\n}"
             file_js: ''
         components:
           c8e6fe47-4f44-4e89-8e53-f97b74119e86:
@@ -655,6 +655,10 @@ third_party_settings:
                 settings:
                   combine: true
                 third_party_settings:
+                  commerce_wishlist:
+                    show_wishlist: true
+                    weight_wishlist: 99
+                    label_wishlist: 'Ajouter dans la liste des souhaits'
                   formatage_models:
                     classes:
                       container: ''
@@ -662,7 +666,9 @@ third_party_settings:
                       value: ''
                       item: ''
                       content: ''
-            weight: 1
+                    remove_container_div: 1
+                    remove_block_div: 1
+            weight: 2
             additional: {  }
           5228dbd4-ce7d-48d8-9486-d65d28553585:
             uuid: 5228dbd4-ce7d-48d8-9486-d65d28553585
@@ -684,17 +690,18 @@ third_party_settings:
                   open_action: ''
                   custom_class: 'accordion-flush border-top mb-4 pb-2'
                   custom_class_item: ''
-                  attribute_header: ''
+                  attribute_header: 'h4 mb-0 fs-5 fw-semibold'
                   attribute_content: 'h6 text-black-50'
                 third_party_settings:
                   formatage_models:
-                    remove_container_div: 0
                     classes:
                       container: ''
                       title: ''
                       value: ''
                       item: ''
                       content: ''
+                    remove_container_div: 0
+                    remove_block_div: 1
             weight: 3
             additional: {  }
           0f629b37-5e78-403d-acce-93594828de36:
@@ -794,6 +801,7 @@ third_party_settings:
                   link_to_entity: false
                 third_party_settings:
                   formatage_models:
+                    remove_container_div: 0
                     classes:
                       container: me-5
                       title: ''
@@ -889,12 +897,12 @@ third_party_settings:
                 email:
                   label: email
                   icone: '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>'
-                  status: 1
+                  status: 0
                   class: habeukUtilitaireRxEmail
                 print:
                   label: print
                   icone: '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" viewBox="0 0 512 512"><path d="M448 192V77.25c0-8.49-3.37-16.62-9.37-22.63L393.37 9.37c-6-6-14.14-9.37-22.63-9.37H96C78.33 0 64 14.33 64 32v160c-35.35 0-64 28.65-64 64v112c0 8.84 7.16 16 16 16h48v96c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32v-96h48c8.84 0 16-7.16 16-16V256c0-35.35-28.65-64-64-64zm-64 256H128v-96h256v96zm0-224H128V64h192v48c0 8.84 7.16 16 16 16h48v96zm48 72c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24s24 10.74 24 24c0 13.25-10.75 24-24 24z"/></svg>'
-                  status: 1
+                  status: 0
                   class: habeukUtilitaireRxPrint
                 instagram:
                   label: Instagram
@@ -902,6 +910,36 @@ third_party_settings:
                   status: 1
                   class: habeukUtilitaireRxInstagram
             weight: 4
+            additional: {  }
+          ad3bc579-4156-4cba-90d0-b2fce652e406:
+            uuid: ad3bc579-4156-4cba-90d0-b2fce652e406
+            region: sub_title
+            configuration:
+              id: 'field_block:commerce_product:sacs_prestige:default_variation'
+              label: 'Default variation'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: commerce_wishlist_button
+                label: hidden
+                settings:
+                  button_label: 'Add to Wishlist'
+                  button_css_class: wishlist-button
+                  button_icon: '<svg width="3rem" height="3rem" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3" stroke="#000000" fill="none"><path d="M9.06,25C7.68,17.3,12.78,10.63,20.73,10c7-.55,10.47,7.93,11.17,9.55a.13.13,0,0,0,.25,0c3.25-8.91,9.17-9.29,11.25-9.5C49,9.45,56.51,13.78,55,23.87c-2.16,14-23.12,29.81-23.12,29.81S11.79,40.05,9.06,25Z"/></svg>'
+                third_party_settings:
+                  formatage_models:
+                    classes:
+                      container: 'px-3 mb-0'
+                      title: ''
+                      value: ''
+                      item: ''
+                      content: ''
+                    remove_container_div: 0
+                    remove_block_div: 0
+            weight: 2
             additional: {  }
         third_party_settings: {  }
       -

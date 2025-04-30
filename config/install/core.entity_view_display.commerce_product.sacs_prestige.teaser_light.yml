@@ -628,9 +628,9 @@ third_party_settings:
                   class: ''
                 container_width:
                   class: ''
-          id: layoutscommerceclothing-single-product-6636--iZHpOV4WP94
+          id: commerce_product__sacs_prestige__teaser_light
           scss:
-            scss_field: " min-width: 100%;\r\n  .layout-region.images {\r\n    position: relative;\r\n    &::after {\r\n      padding: 60% 0;\r\n      content: \"\";\r\n      display: block;\r\n      background-color: #efefef;\r\n      @include media-min(DD) {\r\n        padding: 0;\r\n        min-height: 430px;\r\n      }\r\n    }\r\n    > .block:nth-child(1) {\r\n      position: absolute;\r\n      left: 0;\r\n      right: 0;\r\n      top: 0;\r\n      bottom: 0;\r\n    }\r\n  }"
+            scss_field: " min-width: 100%;\r\n  .layout-region.images {\r\n    position: relative;\r\n    &::after {\r\n      padding: 60% 0;\r\n      content: \"\";\r\n      display: block;\r\n      background-color: #efefef;\r\n      @include media-min(DD) {\r\n        padding: 0;\r\n        min-height: 430px;\r\n      }\r\n    }\r\n    > .swiper {\r\n      position: absolute;\r\n      left: 0;\r\n      right: 0;\r\n      top: 0;\r\n      bottom: 0;\r\n    }\r\n  }"
             file_js: ''
         components:
           e1934ee2-eb5e-4613-b263-7da21f83e443:
@@ -710,13 +710,14 @@ third_party_settings:
                       enabled: 0
                 third_party_settings:
                   formatage_models:
-                    remove_container_div: 0
                     classes:
                       container: ''
                       title: ''
                       value: ''
                       item: ''
                       content: ''
+                    remove_container_div: 1
+                    remove_block_div: 1
             weight: 0
             additional: {  }
           15d96688-8194-467b-afb2-8be93f000565:
@@ -797,6 +798,36 @@ third_party_settings:
                       value: ''
                       item: ''
                       content: ''
+            weight: 0
+            additional: {  }
+          63416851-0e58-4d8d-8054-6f9c419d34a4:
+            uuid: 63416851-0e58-4d8d-8054-6f9c419d34a4
+            region: reduction
+            configuration:
+              id: 'field_block:commerce_product:sacs_prestige:default_variation'
+              label: 'Default variation'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: commerce_wishlist_button
+                label: hidden
+                settings:
+                  button_label: 'Add to Wishlist'
+                  button_css_class: wishlist-button
+                  button_icon: '<svg width="3rem" height="3rem" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3" stroke="#000000" fill="none"><path d="M9.06,25C7.68,17.3,12.78,10.63,20.73,10c7-.55,10.47,7.93,11.17,9.55a.13.13,0,0,0,.25,0c3.25-8.91,9.17-9.29,11.25-9.5C49,9.45,56.51,13.78,55,23.87c-2.16,14-23.12,29.81-23.12,29.81S11.79,40.05,9.06,25Z"/></svg>'
+                third_party_settings:
+                  formatage_models:
+                    classes:
+                      container: ''
+                      title: ''
+                      value: ''
+                      item: ''
+                      content: ''
+                    remove_container_div: 1
+                    remove_block_div: 1
             weight: 0
             additional: {  }
         third_party_settings: {  }

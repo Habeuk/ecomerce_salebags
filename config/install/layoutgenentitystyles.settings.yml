@@ -1,0 +1,201 @@
+langcode: en
+enabled_auto_generate: 1
+enabled_auto_generate_config: 1
+enabled_auto_generate_fieldconfig: 1
+enabled_auto_generate_entity: 1
+entity_auto_generate:
+  btly_megamenus: 0
+  block: 0
+  block_content_type: 0
+  block_content: 1
+  blocks_contents: 1
+  blocks_contents_type: 0
+  blb_breakpoint: 0
+  blb_layout_option: 0
+  blb_layout: 0
+  comment_type: 0
+  comment: 0
+  commerce_checkout_flow: 0
+  commerce_number_pattern: 0
+  commerce_order_type: 0
+  commerce_order: 0
+  commerce_order_item_type: 0
+  commerce_order_item: 0
+  commerce_payment: 0
+  commerce_payment_method: 0
+  commerce_payment_gateway: 0
+  commerce_currency: 0
+  commerce_product_attribute: 0
+  commerce_product_type: 0
+  commerce_product_variation_type: 0
+  commerce_product: 1
+  commerce_product_variation: 0
+  commerce_product_attribute_value: 0
+  commerce_promotion_coupon: 0
+  commerce_promotion: 0
+  commerce_shipment_type: 0
+  commerce_shipment: 0
+  commerce_package_type: 0
+  commerce_shipping_method: 0
+  commerce_stock_location_type: 0
+  commerce_stock_location: 0
+  commerce_store_type: 0
+  commerce_store: 0
+  commerce_wishlist_type: 0
+  commerce_wishlist: 0
+  commerce_wishlist_item: 0
+  contact_message: 0
+  contact_form: 0
+  editor: 0
+  field_storage_config: 0
+  field_config: 0
+  file: 0
+  filter_format: 0
+  filesmailstyle: 0
+  files_style: 0
+  config_theme_entity: 0
+  image_style: 0
+  language_content_settings: 0
+  configurable_language: 0
+  media: 0
+  media_type: 0
+  menu_link_content: 0
+  metatag_defaults: 0
+  multiformat_video: 0
+  node_type: 0
+  node: 1
+  path_alias: 0
+  profile: 0
+  profile_type: 0
+  rest_resource_config: 0
+  search_page: 0
+  search_api_task: 0
+  search_api_server: 0
+  search_api_index: 0
+  search_api_autocomplete_search: 0
+  shortcut_set: 0
+  shortcut: 0
+  menu: 0
+  action: 0
+  taxonomy_term: 0
+  taxonomy_vocabulary: 0
+  user_role: 0
+  user: 0
+  vote_result: 0
+  vote_type: 0
+  vote: 0
+  webform_submission: 0
+  webform: 0
+  webform_options: 0
+  pathauto_pattern: 0
+  view: 0
+  paragraphs_type: 0
+  paragraph: 1
+  cookie_category: 0
+  base_field_override: 0
+  entity_form_display: 0
+  entity_form_mode: 0
+  entity_view_display: 0
+  entity_view_mode: 0
+  date_format: 0
+list_style:
+  more_fields---field-accordion:
+    library: more_fields/field-accordion
+    display_id: default
+    id: commerce_product__sacs_prestige__gaelleries-field_accordions
+    subdir: fields
+  more_fields---field-icon-address:
+    id: 'field_block:paragraph:top_header:field_icons_buttons'
+    display_id: default
+    library: more_fields/field-icon-address
+    subdir: fields
+    type: module
+  more_fields---field-icon-svg:
+    id: 'field_block:paragraph:top_header:field_icons_buttons'
+    display_id: default
+    library: more_fields/field-icon-svg
+    subdir: fields
+    type: module
+  habeuk_utilitaire---square_border:
+    library: habeuk_utilitaire/square_border
+    display_id: default
+    id: habeuk_utilitaire_sharerxs
+    subdir: block
+  layoutscommerce---comment-nutribe-formatter:
+    library: layoutscommerce/comment-nutribe-formatter
+    display_id: default
+    id: comment_nutribe_formatter
+    subdir: ''
+  more_fields---field-hotlock-btn:
+    library: more_fields/field-hotlock-btn
+    display_id: default
+    id: 'field_block:blocks_contents:article_de_blogs_prestige:id'
+    subdir: fields
+  wb_universe---hbk_tabs_secondary:
+    id: wb_universe_blocks
+    display_id: local_tasks_block
+    library: wb_universe/hbk_tabs_secondary
+    subdir: dynamic_styles
+    type: theme
+  more_fields---field-files:
+    library: more_fields/field-files
+    display_id: default
+    id: commerce_product_variation__sacs_prestige__wishlist-field_galleries
+    subdir: fields
+  fullswiperoptions---fullswiperoptions:
+    library: fullswiperoptions/fullswiperoptions
+    display_id: default
+    id: 'field_block:commerce_product_variation:sacs_prestige:field_galleries'
+    subdir: fields
+  more_fields---clean-box-accordion:
+    id: 'field_block:commerce_product:sacs_prestige:field_accordions'
+    display_id: default
+    library: more_fields/clean-box-accordion
+    subdir: fields
+    type: module
+  commerceformatage---cartfloat:
+    library: commerceformatage/cartfloat
+    display_id: default
+    id: commerceformatage_cart_bloc_complet
+    subdir: ''
+  more_fields---more_fields_list_button:
+    library: more_fields/more_fields_list_button
+    display_id: more_fields_list_button
+    id: more_fields_exposed_filter
+    subdir: better_exposed_filters/filter
+  bestlayouts---bestlayouts_megamenu_cover:
+    library: bestlayouts/bestlayouts_megamenu_cover
+    display_id: default
+    id: 'field_block:paragraph:entete_v2:field_menu_a_propos'
+    subdir: fields
+  more_fields---more_fields_video_with_converter:
+    library: more_fields/more_fields_video_with_converter
+    display_id: default
+    id: 'field_block:paragraph:prestige_hero1:field_video'
+    subdir: fields
+  more_fields---more_fields_list_button_light:
+    library: more_fields/more_fields_list_button_light
+    display_id: more_fields_list_button_light
+    id: more_fields_exposed_filter
+    subdir: better_exposed_filters/filter
+  bestlayouts---bestlayouts_megamenu_submenu:
+    id: 'field_block:paragraph:menu_principal:field_menu_a_propos'
+    display_id: default
+    library: bestlayouts/bestlayouts_megamenu_submenu
+    subdir: fields
+    type: module
+  more_fields---restrained-field:
+    library: more_fields/restrained-field
+    display_id: default
+    id: 'field_block:commerce_product:sacs_prestige:body'
+    subdir: fields
+  more_fields---more_fields_search:
+    library: more_fields/more_fields_search
+    display_id: more_fields_search
+    id: more_fields_exposed_filter
+    subdir: better_exposed_filters/filter
+  view_filter_display---view-filter-display:
+    library: view_filter_display/view-filter-display
+    display_id: default
+    id: view_filter_display_style
+    subdir: ''

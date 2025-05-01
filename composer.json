@@ -22,8 +22,7 @@
         "habeuk/hbk_popin": "^1.0",
         "habeuk/hot_models" : "^1.2",
 		"habeuk/mit_models" : "^1.1",
-		"habeuk/fast_models" : "^1.2",
-		
+		"habeuk/fast_models" : "^1.2",		
 		"habeuk/vixcon" : "^1.1"
 	}
 }

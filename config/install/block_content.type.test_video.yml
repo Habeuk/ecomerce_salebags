@@ -1,7 +1,0 @@
-langcode: fr
-status: true
-dependencies: {  }
-id: test_video
-label: 'Test video'
-revision: false
-description: null

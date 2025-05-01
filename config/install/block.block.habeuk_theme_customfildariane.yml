@@ -26,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: true
-    pages: '<front>'
+    pages: "<front>\r\n/boutique\r\n/blocks_contents/2\r\n/blogs-actualites/*\r\n/blocks_contents/10\r\n/blocks_contents/11\r\n/blocks_contents/9\r\n/blocks_contents/12\r\n/blocks_contents/13\r\n/blocks_contents/14"

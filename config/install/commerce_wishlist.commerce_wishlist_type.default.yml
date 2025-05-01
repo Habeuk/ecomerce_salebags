@@ -1,8 +1,0 @@
-langcode: fr
-status: true
-dependencies: {  }
-_core:
-  default_config_hash: cHDXesbGIruR8gM42K02dHrxi9Y9OTOxTdHVYuBlKtU
-label: 'Par défaut'
-id: default
-allowAnonymous: true

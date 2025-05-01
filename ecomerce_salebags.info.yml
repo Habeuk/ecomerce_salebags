@@ -63,6 +63,7 @@ install:
   - webform
   - select2
   - phone_international
+  - metatag
   #commerce
   - commerce
   - commerce_autosku
@@ -74,6 +75,7 @@ install:
   - commerce_stock_field
   - commerce_stripe
   - better_exposed_filters
+  - search_api
   ######## CUSTOM 
   - admin_toolbar_tools
   - twig_vardumper
@@ -98,6 +100,7 @@ install:
   - commerceformatage
   - blockscontent
   - mit_models
+  - commerce_wishlist_button
 
 themes:
   - claro

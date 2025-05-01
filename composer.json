@@ -19,6 +19,8 @@
 		"habeuk/fast_models" : "^1.2",
 		"drupal/commerce_wishlist": "^3.0@beta",
         "drupal/commerce_wishlist_button": "^1.0@alpha",
+        "drupal/metatag": "^2.1",
+        "drupal/search_api": "^1.38",
 		"habeuk/vixcon" : "^1.1"
 	}
 }

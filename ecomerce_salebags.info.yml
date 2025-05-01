@@ -76,6 +76,8 @@ install:
   - commerce_stripe
   - better_exposed_filters
   - search_api
+  - search_api_db
+  - search_api_autocomplete
   ######## CUSTOM 
   - admin_toolbar_tools
   - twig_vardumper
@@ -94,6 +96,7 @@ install:
   - fielditem_renderby_view
   - owlcarousel
   - view_filter_display
+  - hbk_popin
   #commerce  
   - rating_app
   - layoutscommerce

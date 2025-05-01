@@ -12,15 +12,18 @@
 	"require" : {
 		"drupal/eu_cookie_compliance": "^1.25",
 		"drupal/search_api": "^1.38",
-		"drupal/search_api_autocomplete": "^1.10",
-		"habeuk/habeuk_commerce" : "^2.0.33",
-		"habeuk/hot_models" : "^1.2",
-		"habeuk/mit_models" : "^1.1",
-		"habeuk/fast_models" : "^1.2",
+		"drupal/search_api_autocomplete": "^1.10",				
 		"drupal/commerce_wishlist": "^3.0@beta",
         "drupal/commerce_wishlist_button": "^1.0@alpha",
         "drupal/metatag": "^2.1",
         "drupal/search_api": "^1.38",
+        "drupal/search_api_autocomplete": "^1.9",
+        "habeuk/habeuk_commerce" : "^2.0.33",
+        "habeuk/hbk_popin": "^1.0",
+        "habeuk/hot_models" : "^1.2",
+		"habeuk/mit_models" : "^1.1",
+		"habeuk/fast_models" : "^1.2",
+		
 		"habeuk/vixcon" : "^1.1"
 	}
 }

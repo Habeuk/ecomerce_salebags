@@ -106,6 +106,7 @@ install:
   - commerce_wishlist_button
 
 themes:
+  - stark
   - claro
   - wb_universe
   - habeuk_theme
